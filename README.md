@@ -1,20 +1,5 @@
-# Castellazzo - Checklist 75
+# Castellazzo - Checklist 75 V2
+Per ogni voce è obbligatorio scegliere OK o KO. Se si sceglie KO compare una nota obbligatoria. La conclusione è possibile solo quando tutte le 24 voci hanno un esito, ogni KO ha una nota, il volontario ha inserito il nome e ha confermato la certificazione. Il messaggio WhatsApp elenca automaticamente tutte le anomalie e relative note.
 
-Web app statica mobile-first per l'esecuzione della Checklist 75. Non usa database, foto o storico.
-
-## Flusso
-1. Inserire nome e cognome del volontario.
-2. Verificare tutte le 24 voci.
-3. Confermare la dichiarazione finale.
-4. Premere il pulsante finale: si apre WhatsApp verso il numero configurato con il messaggio precompilato.
-
-## Deploy con GitHub Pages
-1. Crea un repository GitHub (es. `castellazzo`).
-2. Carica nella root del repository `index.html`, `style.css`, `app.js` e `README.md`.
-3. Vai in **Settings > Pages**.
-4. In **Build and deployment**, scegli **Deploy from a branch**.
-5. Branch: `main`, cartella: `/ (root)`, quindi **Save**.
-6. Attendi la pubblicazione e apri l'URL fornito da GitHub Pages.
-
-## Nota WhatsApp
-L'app apre WhatsApp con destinatario e testo precompilati. Per vincoli di WhatsApp/browser, l'utente deve confermare l'invio nell'app WhatsApp.
+## Aggiornamento GitHub
+Sostituire nella root del repository `index.html`, `style.css`, `app.js` e `README.md`, quindi fare Commit changes. GitHub Pages pubblicherà il nuovo commit.
